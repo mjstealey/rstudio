@@ -1,5 +1,6 @@
 # Singularity R: rstudio
 
+[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/798)
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -106,7 +107,7 @@ libGL error: No matching fbConfigs or visuals found
 libGL error: failed to load driver: swrast
 ```
 
-**RStudio UI**: (using X11)
+**RStudio Desktop UI**: (using X11)
 
 <img width="80%" alt="RStudio Desktop" src="https://user-images.githubusercontent.com/5332509/37848039-221fdf5e-2ea9-11e8-8f9c-db199ad4f6d2.png">
 
@@ -117,7 +118,7 @@ libGL error: failed to load driver: swrast
 - On exit, the terminal displayed: 
 
     ```console
-    QApplication::qAppName: Please instantiate the QApplication object first`
+    QApplication::qAppName: Please instantiate the QApplication object first
     ```
 
 ## Contributing
