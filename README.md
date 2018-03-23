@@ -118,7 +118,7 @@ libGL error: failed to load driver: swrast
 - On exit, the terminal displayed: 
 
     ```console
-    QApplication::qAppName: Please instantiate the QApplication object first`
+    QApplication::qAppName: Please instantiate the QApplication object first
     ```
 
 ## Contributing
