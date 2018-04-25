@@ -2,7 +2,7 @@ Bootstrap: docker
 FROM: rocker/r-ver:3.4.4
 
 %help
-  RStudio desktop version 1.1.442
+  RStudio Desktop version 1.1.442
   R version 3.4.4 (2018-03-15) -- "Someone to Lean On"
 
   Usage:
@@ -31,6 +31,7 @@ FROM: rocker/r-ver:3.4.4
   export RSTUDIO_VERSION=1.1.442
   apt-get update
   apt-get install -y \
+    wget \
     gdebi-core \
     libxslt1-dev \
     qt5-default \

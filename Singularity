@@ -31,6 +31,7 @@ FROM: rocker/r-ver:3.4.4
   export RSTUDIO_VERSION=1.1.442
   apt-get update
   apt-get install -y \
+    wget \
     gdebi-core \
     libxslt1-dev \
     qt5-default \
