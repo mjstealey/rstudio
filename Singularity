@@ -1,5 +1,5 @@
 Bootstrap: docker
-FROM: rocker/r-ver:3.4.4
+FROM: r-base:3.4.4
 
 %help
   RStudio Desktop version 1.1.442
